@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: c3e4f41861d4053498bbb90b5424559c
-timeCreated: 1445438238
+guid: d43d8edd8e76df04f954cb57f3bf8e9e
+timeCreated: 1445607452
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -26,10 +26,10 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -2
-  maxTextureSize: 128
+  textureFormat: -1
+  maxTextureSize: 2048
   textureSettings:
-    filterMode: 0
+    filterMode: -1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -50,7 +50,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites: []
-  spritePackingTag: sky
+  spritePackingTag: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 
