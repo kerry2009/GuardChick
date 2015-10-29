@@ -18,10 +18,10 @@ namespace PFEngine.background.parallelscroll {
 			transform.position = vect2;
 		}
 
-		public void TransportToEndPointX (float endPointX) {
+		public void TransportToRightPointX (float rightPointX) {
 			vect2 = transform.position;
 			
-			vect2.x = endPointX + offsetX;
+			vect2.x = rightPointX + offsetX;
 			transform.position = vect2;
 		}
 

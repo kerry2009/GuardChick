@@ -4,6 +4,7 @@ using System.Collections;
 public class PFEngineGlobal {
 	public const float VERSION = 1.0f;
 	public float cameraSize = 3.15f;
+	public const int FRAME_RATE = 60;
 
 	public static Vector2 ScreenTopLeftPosition {
 		get {

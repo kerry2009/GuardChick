@@ -8,6 +8,8 @@ public class Main : MonoBehaviour {
 //	private int screenHeight = 640;
 
 	void Awake() {
+		Application.targetFrameRate = PFEngineGlobal.FRAME_RATE;
+
 //		Screen.SetResolution (screenWidth, screenHeight, false);
 //		
 //		float windowAspect = (float)screenWidth / (float)screenHeight;
