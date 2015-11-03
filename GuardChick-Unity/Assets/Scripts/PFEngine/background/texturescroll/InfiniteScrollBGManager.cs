@@ -3,6 +3,9 @@ using System.Collections;
 
 namespace PFEngine.background.texturescroll {
 	public class InfiniteScrollBGManager : MonoBehaviour {
+		public float ScrollSpeedX = 0.0f;
+		public float ScrollSpeedY = 0.0f;
+
 		public BackGroundSetting[] backGrounds = null;
 		private InfiniteScrollBG[] infiniteScrollBGs = null;
 
@@ -22,7 +25,7 @@ namespace PFEngine.background.texturescroll {
 		}
 
 		void Update () {
-			ScrollBGs (0.001f, 0f);
+			ScrollBGs (ScrollSpeedX, ScrollSpeedY);
 		}
 
 		public void ScrollBGs(float offsetX, float offsetY) {
